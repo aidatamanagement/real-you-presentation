@@ -133,14 +133,14 @@
             <div class="flex flex-col lg:flex-row lg:items-start justify-between gap-8">
                 <div class="space-y-4 lg:w-1/2">
                     <h2 class="text-xl md:text-2xl font-bold flex items-center gap-2" style="color:var(--ink);"><span class="dot" style="background:var(--terra);"></span> Budget forecaster</h2>
-                    <p class="text-body text-sm">Verified rates per model at 1080p with audio off (RealYou overlays the voice track). The working strategy is one 3-minute video, and the slider can explore up to 5 minutes with costs updating on the fly. These figures cover base video generation only; see the other costs to budget below.</p>
+                    <p class="text-body text-sm">Verified rates per model at 1080p with audio off (RealYou overlays the voice track). The working strategy is one 3-minute video, and the slider can explore up to 5 minutes with costs updating on the fly. These figures cover base video generation only, see the other costs to budget below.</p>
                     <div class="space-y-2 pt-2">
                         <div class="flex justify-between text-sm font-medium" style="color:var(--ink);">
                             <span>Video duration</span>
                             <span id="sliderValue" class="font-bold text-lg" style="color:var(--terra);">3 mins</span>
                         </div>
                         <input type="range" id="durationSlider" min="5" max="300" step="5" value="180" class="w-full h-2 rounded-lg appearance-none cursor-pointer custom-slider">
-                        <div class="flex justify-between text-xs text-muted"><span>5s</span><span>3m planned video</span><span>5m max exploration</span></div>
+                        <div class="flex justify-between text-xs text-muted"><span>5s</span><span>3m</span><span>5m</span></div>
                     </div>
                 </div>
                 <div class="lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-4" id="cardGrid"></div>
